@@ -7,7 +7,7 @@
 	<param name='active-tab' type="notebook">
 
 		<page name='Laser' _gui-text='Laser'>
-			<param name="engraving-laser-speed" type="int" min="0" max="3000" _gui-text="Laser engraving speed:">300</param>
+			<param name="engraving-laser-speed" type="int" min="0" max="3000" _gui-text="Laser engraving speed激光雕刻速度:">300</param>
 			<param name="filename" type="string" _gui-text="File:">output.nc</param>
 			<param name="add-numeric-suffix-to-filename" type="boolean" _gui-text="Add numeric suffix to filename文件名添加序号">true</param>
 		</page>
