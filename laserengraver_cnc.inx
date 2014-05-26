@@ -2,7 +2,7 @@
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
     <_name>CNC</_name>
     <id>ru.cnc-club.filter.gcodetools_laser</id>
-	<dependency type="executable" location="extensions">laserengraver.py</dependency>
+	<dependency type="executable" location="extensions">Svg2Gcode.py</dependency>
 	<dependency type="executable" location="extensions">inkex.py</dependency>
 	<param name='active-tab' type="notebook">
 
@@ -36,7 +36,7 @@
   </effect>
 
 	<script>
-		<command reldir="extensions" interpreter="python">laserengraver.py</command>
+		<command reldir="extensions" interpreter="python">Svg2Gcode.py</command>
 	</script>
 
 </inkscape-extension>
