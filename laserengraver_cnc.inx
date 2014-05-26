@@ -30,7 +30,7 @@
 
 	<effect>
 		<effects-menu>
-			<submenu _name="Laserengraver"/>
+			<submenu _name="Svg2Gcode"/>
 		</effects-menu>
 		<object-type>path</object-type>
   </effect>
