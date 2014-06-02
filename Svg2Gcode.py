@@ -3169,7 +3169,9 @@ class Laserengraver(inkex.Effect):
                     "in trajectotry": "",
                     "out trajectotry": "",
                     "gcode before path": "\nG0 Z0.01",
+                    #"gcode before path": "\nG4 P300\nM106 S255\nG4 P300",    #用于激光头
                     "gcode after path": "G0 Z1.5\n",
+                    #"gcode after path": "G4 P300\nM106 S4\nG4 P300\n",    #用于激光头
                     "sog": "",
                     "spinlde rpm": "",
                     "CW or CCW": "",
