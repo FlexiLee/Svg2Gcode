@@ -89,7 +89,7 @@ options = {}
 defaults = {
 'header': """
 G90
-G0 Z2
+#G0 Z2    #用于笔
 """,
 'footer': """G0 X0.000 Y0.000
 M05
