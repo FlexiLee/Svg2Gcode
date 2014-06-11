@@ -24,7 +24,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 """
 
 ###
-###        Laserengraver v 0.01 
+###        Laserengraver v 0.01 For 3D Print
 ###
 Laserengraver_current_version = "0.01"
 
